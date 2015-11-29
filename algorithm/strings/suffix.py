@@ -19,7 +19,7 @@ class SuffixArray(list):
         # post prepare properties
         from algorithm.arrays import inverse_array
 
-        self.string = SuffixArray._last_transformed_text
+        self.string = SuffixArray._last_transformed_text if transform else text
         self.position = inverse_array(self)
 
         # prepare least common prefix
