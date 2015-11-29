@@ -1,0 +1,557 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"DE",
+				"DEFAULT_WE_ARE_AMP_CAPTION"
+			],
+			[
+				"DEFAULT",
+				"DEFAULT_WE_ARE_AMP_SUBCAPTION"
+			],
+			[
+				"DEF",
+				"DEFAULT_WE_ARE_AMP_SUBCAPTION"
+			],
+			[
+				"DEFU",
+				"DEFAULT_WE_ARE_AMP_CAPTION"
+			],
+			[
+				"b",
+				"beginend	$1.begin(), $1.end()"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #include <…>"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"g++ test.cpp && a",
+			"print(\"Hello World\");",
+			"g++",
+			"world"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/B/Rico/Dev/GitHub/algorithm"
+	],
+	"file_history":
+	[
+		"/B/Rico/Dev/GitHub/WebRico/virt.bat",
+		"/B/Rico/Dev/GitHub/WebRico/run.bat",
+		"/B/Rico/Dev/GitHub/WebRico/src/migrate.bat",
+		"/B/Rico/Dev/GitHub/WebRico/src/server.bat",
+		"/B/Rico/Dev/GitHub/WebRico/src/virt.bat",
+		"/B/Rico/Dev/GitHub/WebRico/src/rico/frontend/home/templates/home/index.html",
+		"/B/Rico/Dev/GitHub/WebRico/src/rico/frontend/home/views.py",
+		"/B/Rico/Dev/GitHub/WebRico/src/rico/frontend/home/tests.py",
+		"/B/Rico/Dev/GitHub/WebRico/src/manage.py",
+		"/B/Rico/Dev/GitHub/WebRico/src/rico/config/urls.py",
+		"/B/Rico/Dev/GitHub/WebRico/src/rico/config/wsgi.py",
+		"/B/Rico/Dev/GitHub/WebRico/src/rico/frontend/home/__init__.py",
+		"/B/Rico/Dev/GitHub/WebRico/src/rico/config/settings.py",
+		"/B/Rico/Dev/GitHub/WebRico/src/rico/__init__.py",
+		"/B/Rico/Dev/GitHub/WebRico/Src/WebRico/settings.py",
+		"/B/Rico/Dev/GitHub/WebRico/Src/virt.bat",
+		"/B/Rico/Dev/GitHub/WebRico/Src/home/templates/home/index.html",
+		"/B/Rico/Dev/GitHub/WebRico/Src/home/views.py",
+		"/B/Rico/Dev/GitHub/WebRico/Src/WebRico/urls.py",
+		"/B/Rico/Dev/GitHub/WebRico/Src/home/templates/index.html",
+		"/B/Rico/Dev/GitHub/WebRico/open_cmd.bat",
+		"/B/Rico/Dev/GitHub/WebRico/open_virtualenv.bat",
+		"/B/Rico/Dev/GitHub/WebRico/Scripts/activate_this.py",
+		"/B/Rico/Dev/GitHub/WebRico/Scripts/django-admin.py",
+		"/D/Rico/Desktop/B.cpp",
+		"/D/Rico/Desktop/C.cpp",
+		"/D/Rico/Desktop/D.java",
+		"/D/Rico/Desktop/D.cpp",
+		"/D/Rico/Desktop/st.cpp",
+		"/D/Rico/Desktop/rail.cpp",
+		"/D/Rico/Desktop/rail.in",
+		"/D/Rico/Desktop/lip.cpp",
+		"/D/Rico/Desktop/rect.cpp",
+		"/B/Rico/Dev/GitHub/effective-django-tutorial/addressbook/urls.py",
+		"/B/Rico/Dev/GitHub/effective-django-tutorial/contacts/views.py",
+		"/D/Rico/Desktop/tree.cpp",
+		"/D/Rico/Desktop/par.cpp",
+		"/D/Rico/Desktop/par.in",
+		"/D/Rico/Desktop/tree.in",
+		"/D/Rico/Desktop/C.in",
+		"/D/Rico/Desktop/D.in",
+		"/D/Rico/Desktop/lip.in",
+		"/D/Rico/Desktop/st.in",
+		"/D/Rico/Desktop/B.in",
+		"/B/Rico/Dev/Django/Scripts/django-admin.py",
+		"/C/Python27/Scripts/django-admin.py",
+		"/D/Rico/Desktop/D.py",
+		"/B/Rico/Dev/Django/src/templates/blog/index.html",
+		"/B/Rico/Dev/Django/src/blog/models.py",
+		"/D/Rico/Desktop/disjoin.in",
+		"/D/Rico/Desktop/a.in",
+		"/D/Rico/Desktop/a.cpp",
+		"/C/Users/Rico/AppData/Roaming/Sublime Text 3/Packages/Terminal/Default (Windows).sublime-keymap",
+		"/D/Rico/Desktop/switch.in",
+		"/D/Rico/Desktop/cake.in",
+		"/D/Rico/Desktop/maze.i",
+		"/D/Rico/Desktop/robot.in",
+		"/D/Rico/Desktop/maze.cpp",
+		"/D/Rico/Desktop/cake.cpp",
+		"/D/Rico/Desktop/switch.cpp",
+		"/B/Rico/Documents/marco/CS 11 Speedprogramming/4.py",
+		"/D/Rico/Desktop/disjoint.cpp",
+		"/B/Rico/Dev/Django/src/blog/views.py",
+		"/B/Rico/Dev/Django/src/blog/urls.py",
+		"/B/Rico/Dev/Django/src/blog/admin.py",
+		"/B/Rico/Dev/Django/src/config/urls.py",
+		"/B/Rico/Dev/Django/src/rico/templates/rico/index.html",
+		"/B/Rico/Dev/Django/src/blog/templates/blog/index.html",
+		"/B/Rico/Dev/Django/src/config/settings.py",
+		"/B/Rico/Dev/Django/src/rico/views.py",
+		"/B/Rico/Dev/Django/src/rico/urls.py",
+		"/B/Rico/Dev/Django/src/manage.py",
+		"/C/Users/Rico/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/Rico/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/D/Rico/Desktop/robot.cpp",
+		"/C/Users/Rico/SkyDrive/gauss.py",
+		"/B/Rico/Dev/Django/cake.in",
+		"/B/Rico/Documents/marco/CS 11 Speedprogramming/6.py",
+		"/C/Users/Rico/Anaconda/Lib/site-packages/django/contrib/admin/sites.py",
+		"/B/Rico/Dev/Django/src/rico/tests.py",
+		"/B/Rico/Dev/Django/src/rico/models.py",
+		"/B/Rico/Dev/Django/src/rico/admin.py",
+		"/B/Rico/Dev/Django/src/index.html",
+		"/B/Rico/Dev/Django/mysite/mysite/settings.py",
+		"/C/wamp/www/css/header.css",
+		"/C/wamp/www/coming-soon.php",
+		"/C/wamp/www/results.php",
+		"/C/wamp/www/index.php",
+		"/C/wamp/www/php/sql.php",
+		"/C/wamp/www/db/info.db-journal",
+		"/C/wamp/www/db/create.sql",
+		"/C/wamp/www/js/artists.js",
+		"/C/wamp/www/js/global.js",
+		"/C/wamp/www/php/global.php",
+		"/C/wamp/www/php/dividers.php",
+		"/C/wamp/www/css/about.css",
+		"/C/wamp/www/lethargy/admin.php",
+		"/C/wamp/www/lethargy/css/admin.css",
+		"/C/wamp/www/db/index.php",
+		"/C/wamp/www/info/artists.txt",
+		"/C/wamp/www/about.php",
+		"/C/wamp/www/artists.php",
+		"/C/wamp/www/admin/index.php",
+		"/C/wamp/www/admin/dashboard.php",
+		"/C/wamp/www/php/admin-dashboard.php",
+		"/C/wamp/www/admin/login.php",
+		"/C/wamp/www/admin/menu.php",
+		"/C/wamp/www/css/dashboard.css",
+		"/C/wamp/www/css/global.css",
+		"/B/Rico/Dev/Django/mysite/mysite/urls.py",
+		"/B/Rico/Documents/web/website/articles.php",
+		"/B/Rico/Documents/web/website/projectsprograms.php",
+		"/B/Rico/Documents/web/website/splash.css",
+		"/B/Rico/Documents/web/website/bbcodes.php",
+		"/B/Rico/Documents/web/website/aboutus.php",
+		"/D/Rico/Desktop/info.php",
+		"/C/wamp/www/lethargy/db/table_info.php",
+		"/C/wamp/www/lethargy/about.php",
+		"/C/wamp/www/info.php",
+		"/B/Rico/Dropbox/rizal.txt",
+		"/C/wamp/www/lethargy/js/admin.js",
+		"/D/Rico/Desktop/shunting-yard.in",
+		"/D/Rico/Desktop/shunting.in",
+		"/D/Rico/Desktop/in.in",
+		"/D/Rico/Desktop/brent.cpp",
+		"/D/Rico/Desktop/kadane.cpp",
+		"/C/wamp/www/lethargy/contact.php",
+		"/C/wamp/www/lethargy/php/menu.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"c[i][j]",
+			"			\n",
+			"N",
+			"a - 1, b - 1",
+			"L",
+			" )",
+			"lld",
+			"%d",
+			"int",
+			"pas",
+			" (",
+			"urls",
+			"createMenu",
+			"#menu ",
+			"dashboard",
+			"Se",
+			"description",
+			"divider",
+			"menu-label",
+			"slider",
+			"fetch",
+			"fraction",
+			"long double",
+			"double",
+			"[",
+			"[]",
+			"php/",
+			"require",
+			"icons/",
+			"images/images/icons/",
+			"icons",
+			"icons/",
+			"include",
+			"get",
+			"<\\?php",
+			"??",
+			"<?<?",
+			"<?php",
+			"selec",
+			"dropdown",
+			"hidden",
+			"feature",
+			"transition",
+			"text-align",
+			"role",
+			"feature",
+			"src",
+			".widget",
+			"bottom",
+			";\n",
+			"feature",
+			"container",
+			"feature-display",
+			"100%",
+			"nowrap",
+			"70",
+			"label",
+			"widget",
+			"height:",
+			"Al",
+			"band-info",
+			"span",
+			"band-info",
+			"icon",
+			"contact",
+			"href",
+			"link",
+			"icon",
+			"margin:",
+			".band-image",
+			"'Helvetica Neue', Serif, Arial;",
+			"DrescherGrotesque",
+			"'Helvetica Neue', Serif, Arial;",
+			"parallax",
+			"hover",
+			"array_push",
+			"style=",
+			"width",
+			"4",
+			"href",
+			"menu",
+			"slideshow",
+			"divider",
+			"display: flex",
+			"transform",
+			"section",
+			".menu-label",
+			"parallax",
+			"container",
+			"{\n",
+			"scroll",
+			"hidden-menu",
+			"transition",
+			"slide",
+			"section",
+			"slide",
+			"parallax",
+			"we-are-amp",
+			"overflow",
+			"parallax",
+			"webkit",
+			"*/\n",
+			"background-size",
+			"min-width",
+			"max-width",
+			"label",
+			"trans",
+			"flex",
+			"background-",
+			"fix",
+			"sprintf",
+			"menu",
+			"shadow",
+			"font-size",
+			"band-left",
+			"scroller.animate",
+			"scroll",
+			"echo",
+			"createBand",
+			"artists",
+			"background-",
+			"background-size",
+			"] ",
+			"box",
+			"picture",
+			"opacity",
+			"'));\n",
+			"?>\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"s[i][j]",
+			"n",
+			"a, b",
+			"I64d",
+			"%lld",
+			"long long",
+			"createHeader",
+			"#header ",
+			"double",
+			"fraction",
+			"long double",
+			"float",
+			"array()",
+			"",
+			"images/icons",
+			"images/icons/",
+			"require",
+			"<?",
+			"<",
+			"",
+			"<?",
+			"Verdana;",
+			"poly",
+			"INF",
+			"D",
+			"8",
+			"float",
+			"ld",
+			"double",
+			"float",
+			"long double",
+			"Point",
+			"lag",
+			"double",
+			"End",
+			"int",
+			"Right",
+			"Left",
+			"lag",
+			"",
+			"c",
+			"N",
+			"r[",
+			"p[",
+			"int",
+			"lag",
+			"long long",
+			"box",
+			"child",
+			"R",
+			"L"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "algorithm.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Rico\\Desktop\\webamp.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 312.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
