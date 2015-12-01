@@ -52,32 +52,11 @@
 			}
 		},
 		{
-			"file": ".ipynb_checkpoints/Suffix Array Analysis-checkpoint.ipynb",
-			"settings":
-			{
-				"buffer_size": 32479,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "progvar/strings/__init__.py",
 			"settings":
 			{
 				"buffer_size": 1307,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "{\n    // Indicator which parts will be autocompleted in the docstring, default are all available\n    // e.g. :\n    // def add(a,b):\n    //      '''\n    //      Function FUNCTIONNAME\n    //      Summary: THESUMMARY\n    //      Example: EXAMPLE_DESCRIPTION\n    //      Attributes:\n    //          @param attr1 DESC\n    //          @param attr2 DESC\n    //\n    //      Returns: RETURNVALUE\n    //      '''\n    \"autocomplete_parts\":[\"function\",\"summary\",\"examples\",\"attributes\",\"returns\"],\n\n    // Indicator how many spaces will be indented for the @param argument\n    // Default (-1) are as many as there are configured in tab_size/ tab_width\n    // e.g. using 2:\n    // Attributes:\n    //   @param\n    //   @param\n    // Any other value than -1 will lead to indentation\n    // \"indent_spaces\":-1,\n\n    // Autocompletes some dummy text for every parameter\n    // If false is set, no autocompletion for the parameters is done, e.g. text\n    // will be empty, but can still be acessed using tab keypress\n    \"autocomplete_text\":true\n}\n",
-			"file": "/home/alls/.config/sublime-text-3/Packages/DocPy/DocPy.sublime-settings",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 1030,
-				"line_ending": "Unix",
-				"read_only": true,
-				"scratch": true
 			}
 		},
 		{
@@ -182,12 +161,11 @@
 	"expanded_folders":
 	[
 		"/home/alls/algorithms-python",
-		"/home/alls/algorithms-python/.ipynb_checkpoints",
-		"/home/alls/algorithms-python/progvar",
 		"/home/alls/algorithms-python/progvar/strings"
 	],
 	"file_history":
 	[
+		"/home/alls/.config/sublime-text-3/Packages/DocPy/DocPy.sublime-settings",
 		"/B/Rico/Dev/GitHub/WebRico/virt.bat",
 		"/B/Rico/Dev/GitHub/WebRico/run.bat",
 		"/B/Rico/Dev/GitHub/WebRico/src/migrate.bat",
@@ -314,8 +292,7 @@
 		"/D/Rico/Desktop/in.in",
 		"/D/Rico/Desktop/brent.cpp",
 		"/D/Rico/Desktop/kadane.cpp",
-		"/C/wamp/www/lethargy/contact.php",
-		"/C/wamp/www/lethargy/php/menu.php"
+		"/C/wamp/www/lethargy/contact.php"
 	],
 	"find":
 	{
@@ -530,7 +507,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -559,7 +536,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -590,7 +567,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -606,8 +583,8 @@
 						"selection":
 						[
 							[
-								384,
-								384
+								234,
+								234
 							]
 						],
 						"settings":
@@ -621,41 +598,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": ".ipynb_checkpoints/Suffix Array Analysis-checkpoint.ipynb",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 32479,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								899,
-								899
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "progvar/strings/__init__.py",
 					"semi_transient": false,
 					"settings":
@@ -685,36 +632,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/home/alls/.config/sublime-text-3/Packages/DocPy/DocPy.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1030,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								147,
-								147
-							]
-						],
-						"settings":
-						{
-							"auto_complete": true,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
+					"buffer": 4,
 					"file": "progvar/strings/utils.py",
 					"semi_transient": false,
 					"settings":
@@ -739,7 +657,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]

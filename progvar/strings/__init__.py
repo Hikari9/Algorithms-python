@@ -35,5 +35,5 @@ def longest_common_substring(first_text, second_text, all=False, return_string=T
 		else:
 			return max_lcp
 
-
+# synonym
 lcp_array = longest_common_prefix_array
