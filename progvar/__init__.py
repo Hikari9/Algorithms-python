@@ -1,4 +1,4 @@
-from algorithm.strings.suffix import SuffixArray
+from progvar.strings.suffix import SuffixArray
 
 def isstring(variable):
 	return isinstance(variable, (str, unicode))

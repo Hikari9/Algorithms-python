@@ -1,10 +1,33 @@
-from algorithm.strings.utils import isstring, uni
+from progvar.strings.utils import isstring, uni
 
 class SuffixArray(list):
+    '''
+    Class: SuffixArray
+    '''
     
     def __init__(self, text, algo=u'default', transform=True):
+        '''
+        Function: SuffixArray.__init__
+        Summary: Initializes a suffix array data structure.
+        Examples:
+            print SuffixArray('abaab', algo='radix sort')
+            # [5, 2, 3, 0, 4, 1]
+        Attributes: 
+            @param (self):
+                The SuffixArray object.
+            @param (text):
+                The text vector to be transformed into a suffix array.
+                Can be a single string, a list of strings, or a list of integers.
+            @param (algo) default=u'default':
+                The algorithm to be used by the suffix array.
+                A list of available algorithms can be found in SuffixArray.algorithms.
+            @param (transform) default=True:
+                Optimization argument whether to transform the text using the method transform_characters or not.
+                Set to false when you're working with a string of integers.
+        Returns: None
+        '''
         
-        # check if algorithm is valid
+        # check if algo is valid
         
         algo = algo.lower()
         if algo not in SuffixArray.algorithms:
@@ -17,7 +40,7 @@ class SuffixArray(list):
         list.__init__(self, self.algorithm(self.text, transform=transform))
 
         # post prepare properties
-        from algorithm.arrays import inverse_array
+        from progvar.arrays import inverse_array
 
         self.string = SuffixArray._last_transformed_text if transform else text
         self.position = inverse_array(self)
@@ -35,9 +58,25 @@ class SuffixArray(list):
                 if k: k -= 1
 
     def suffix(self, index):
+        '''
+        Function: SuffixArray.suffix
+        Summary:
+            Gets the index-th string suffix in the suffix array.
+            Uses the dollar sign '$' as a delimiter.
+        Examples:
+            print SuffixArray('abaab').suffix(1)
+            # u'aab$'
+        Attributes: 
+            @param (self):
+                The SuffixArray object.
+            @param (index):
+                The suffix array integer index.
+        Returns: unicode
+        '''
         return u''.join(map(lambda num: u'$' if num < 0 else chr(num), self.string[self[index]:]))
 
     _last_transformed_text = None
+
 
 def transform_characters(text):
     # transform string or list of strings into a single list of ASCII values

@@ -1,4 +1,4 @@
-from algorithm.strings.utils import uni
+from progvar.strings.utils import uni
 
 class Table(list):
     
