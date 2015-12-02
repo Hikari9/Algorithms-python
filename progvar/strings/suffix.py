@@ -79,8 +79,16 @@ class SuffixArray(list):
 
 
 def transform_characters(text):
-    # transform string or list of strings into a single list of ASCII values
-    # separated by decrementing negative numbers (starting from -1)
+    '''
+    Function: transform_characters
+    Summary:
+        Transform string or list of strings into a single list of ASCII values.
+        Every list of strings will be appended with a negative integer (starting from -1)
+    Attributes: 
+        @param (text):
+            The string or list of strings to transform.
+    Returns: list
+    '''
     import collections 
 
     if isstring(text):
@@ -100,12 +108,23 @@ def transform_characters(text):
         else:
             array = text[:]
 
-    # save in cache
+    # save in SuffixArray object cache
     SuffixArray._last_transformed_text = array
     return array
 
 def suffix_array_default(text, transform=True):
-    # determine algorithm based on text properties
+    '''
+    Function: suffix_array_default
+    Summary: Compute for the suffix array by using the most efficient algorithm given the nature of the string input.
+    Attributes: 
+        @param (text):
+            The text vector to be transformed into a suffix array.
+            Can be a single string, a list of strings, or a list of integers.
+        @param (transform) default=True:
+            Optimization argument whether to transform the text using the method transform_characters or not.
+            Set to false when you're working with a string of integers.
+    Returns: list
+    '''
 
     string = transform_characters(text) if transform else text
     letters = len(set(x for x in string if x >= 0)) if transform else len(set(string))
@@ -114,14 +133,29 @@ def suffix_array_default(text, transform=True):
     if letters == 1: # special case
         return reversed(range(length))
 
-    elif length <= 100 or (length <= 1000 and letters >= 10):
+    elif letters == 2 and length <= 100: # counting sort for small binary cases
+        return suffix_array_counting_sort(string, transform=False)
+
+    elif length <= 100 or (length <= 1000 and letters >= 10): # brute force for general small cases
         return suffix_array_brute(string, transform=False)
     
-    else:
+    else: # DC3 for the rest
         return suffix_array_dc3(string, transform=False)
 
 def suffix_array_brute(text, transform=True):
-
+    '''
+    Function: suffix_array_brute
+    Summary: Compute for the suffix array by using brute force string comparison in O(n^2 log n).
+    Attributes: 
+        @param (text):
+            The text vector to be transformed into a suffix array.
+            Can be a single string, a list of strings, or a list of integers.
+        @param (transform) default=True:
+            Optimization argument whether to transform the text using the method transform_characters or not.
+            Set to false when you're working with a string of integers.
+    Returns: list
+    '''
+    
     # transform characters first into array of integers
     string = transform_characters(text) if transform else text
     n = len(string)
@@ -147,14 +181,26 @@ def suffix_array_brute(text, transform=True):
 
 
 def suffix_array_counting_sort(text, transform=True):
+    '''
+    Function: suffix_array_counting_sort
+    Summary: Compute for the suffix array by using counting sort in O(n log n).
+    Attributes: 
+        @param (text):
+            The text vector to be transformed into a suffix array.
+            Can be a single string, a list of strings, or a list of integers.
+        @param (transform) default=True:
+            Optimization argument whether to transform the text using the method transform_characters or not.
+            Set to false when you're working with a string of integers.
+    Returns: list
+    '''
 
-    # transform characters first into array of integers
+    # transform text into list of integers
     string = transform_characters(text) if transform else text
     n = len(string)
 
     # create initial list of indices
     sa = range(n)
-    pos = string[:]
+    pos = string
     val = [0] * n
     count = [0] * n
 
@@ -165,15 +211,12 @@ def suffix_array_counting_sort(text, transform=True):
     # perform counting sort, iterate for each power of two offset
     # O(n log n)
     gap = 1
-    while gap < (n << 1):
+    while gap < n:
         val[sa[0]] = 0
         for I in xrange(1, n):
             i, j = sa[I - 1], sa[I]
             val[j] = val[i] if pos[i] == pos[j] and i + gap < n and pos[i + (gap >> 1)] == pos[j + (gap >> 1)] else I
-        for i in xrange(n):
-            pos[i] = val[i]
-            val[i] = sa[i]
-            count[i] = i
+        pos, val, count = val, sa[:], range(n)
         for i in xrange(n):
             index = val[i] - gap
             if index >= 0:
@@ -184,6 +227,18 @@ def suffix_array_counting_sort(text, transform=True):
     return sa
 
 def suffix_array_radix_sort(text, transform=True):
+    '''
+    Function: suffix_array_radix_sort
+    Summary: Compute for the suffix array by using radix sort in O(n log^2 n).
+    Attributes: 
+        @param (text):
+            The text vector to be transformed into a suffix array.
+            Can be a single string, a list of strings, or a list of integers.
+        @param (transform) default=True:
+            Optimization argument whether to transform the text using the method transform_characters or not.
+            Set to false when you're working with a string of integers.
+    Returns: list
+    '''
 
     # transform text into list of integers
     string = transform_characters(text) if transform else text
@@ -213,6 +268,18 @@ def suffix_array_radix_sort(text, transform=True):
     return sa
 
 def suffix_array_dc3(text, transform=True):
+    '''
+    Function: suffix_array_dc3
+    Summary: Compute for the suffix array by using DC3 algorithm in O(n log^2 n).
+    Attributes: 
+        @param (text):
+            The text vector to be transformed into a suffix array.
+            Can be a single string, a list of strings, or a list of integers.
+        @param (transform) default=True:
+            Optimization argument whether to transform the text using the method transform_characters or not.
+            Set to false when you're working with a string of integers.
+    Returns: list
+    '''
 
     # transform text into offsetted list of integers
     string = transform_characters(text) if transform else text
